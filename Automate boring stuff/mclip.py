@@ -1,4 +1,5 @@
 # multi-clipboard automatic messages
+# Trying Auto commit to the git repo
 import os, sys, pyperclip
 os.system('cls')
 
