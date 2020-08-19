@@ -1,4 +1,5 @@
 #automatically adding stars to a list of lines
+# python 3
 import os, pyperclip
 
 os.system("cls")
