@@ -8,7 +8,7 @@
             "name": "Python",
             "type": "python",
             "request": "launch",
-            "program": "C:/Users/NagaVenkataSuryaNare/Documents/Naresh/AutomateBoringStuff/madlibs.py",
+            "program": "C:/Users/NagaVenkataSuryaNare/Documents/GitHub/Python/Automate boring stuff/renameDates.py",
             "console": "integratedTerminal",
             "stopOnEntry":true
         }
