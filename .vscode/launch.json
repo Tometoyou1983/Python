@@ -8,7 +8,7 @@
             "name": "Python",
             "type": "python",
             "request": "launch",
-            "program": "C:/Users/NagaVenkataSuryaNare/Documents/GitHub/Python/Automate boring stuff/renameDates.py",
+            "program": "C:/Users/NagaVenkataSuryaNare/Documents/GitHub/Python/Python web programs/googleFeelingLucky.py",
             "console": "integratedTerminal",
             "stopOnEntry":true
         }
