@@ -3,7 +3,7 @@
 #program to take zip code and then retrive the temperature accordingly.
 # Also adding sys argv to access command prompt as well as pyperclip for input options.
 # plan is to expand the program to use zipcode, country, place name, lat&lon positions in the future.
-# openweathermap.org api is being used. changes in api structure between book and current api will change things.
+# openweathermap.org api is being used. you need to register and get your own api key
 #free account only has access to current weather and so will not be able to print data for next 3 days
 import os, pyperclip, requests, json, sys
 
