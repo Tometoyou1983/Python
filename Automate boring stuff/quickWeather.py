@@ -8,6 +8,7 @@
 import os, pyperclip, requests, json, sys
 
 os.system('cls')
+yourapiid = 'Register and get your own api key'
 while True:
     temperature = input('Enter F for temperature in Fahrenheit or C for celcius. Default is Kelvin: ')
     if temperature == 'F':
@@ -30,16 +31,16 @@ while True:
     option = int(input('Do you want to enter location information (1) or zipcode (2) or latitude/longitude (3): '))
     if option == 1:
         city = input('Enter city state and country information (ex: Sanfransico,CA,US): ')  
-        url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&cnt=3&units={units}&appid=10e2aea7c2852b4774fb5c9042507ce0'
+        url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&cnt=3&units={units}&appid={yourapiid}'
         break
     elif option == 2:
         zipcode = input('Enter zipcode and country information (Ex: 16506,US): ')
-        url = f'http://api.openweathermap.org/data/2.5/weather?zip={zipcode}&cnt=3&&units={units}&appid=10e2aea7c2852b4774fb5c9042507ce0'
+        url = f'http://api.openweathermap.org/data/2.5/weather?zip={zipcode}&cnt=3&&units={units}&appid={yourapiid}'
         break
     elif option == 3:
         lat = input('Enter Latitude position (ex: 37.17777): ')
         lon = input('Enter Longitude position (ex: -212.17777): ')
-        url = f'http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&cnt=3&&units={units}&appid=10e2aea7c2852b4774fb5c9042507ce0'
+        url = f'http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&cnt=3&&units={units}&appid={yourapiid}'
     else:
         print('invalid entry. select 1 or 2 or 3')
 
