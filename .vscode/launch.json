@@ -8,7 +8,7 @@
             "name": "Python",
             "type": "python",
             "request": "launch",
-            "program": "C:/Users/NagaVenkataSuryaNare/Documents/GitHub/Python/Python web programs/googleFeelingLucky.py",
+            "program": "C:/Users/NagaVenkataSuryaNare/Documents/GitHub/Python/Python web programs/scheduledWebComicDownloader.py",
             "console": "integratedTerminal",
             "stopOnEntry":true
         }
